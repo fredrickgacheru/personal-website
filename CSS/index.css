@@ -1,0 +1,143 @@
+/***********************************************Fonts***********************************************/
+/***
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Sacramento', cursive; 
+*/
+/**************************************************************************/
+body{
+    margin: 0;
+    text-align: center;
+    
+}
+h1{
+    
+    font-size: 90px;
+    color: #51c4d3;
+    font-family: 'Merriweather Sans', sans-serif; 
+    
+}
+
+h2{
+    
+    font-size: 3rem;
+    color: #51c4d3;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+hr{
+    border-style: dotted none none none;
+    width: 7%;
+    border-width: 10px;
+    color: #d8e3e7;
+}
+
+p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 2;
+    color: #132c33;
+}
+/****************************************top-container*********************************************************/
+.top-container{
+    background-color: #d8e3e7;
+    text-align: center;
+    position: relative;
+}
+.freddie{
+    margin: 0;
+    padding-top: 3rem;
+    font-family: 'Sacramento', cursive;
+    font-size: 10rem;
+}
+
+.pro{
+    text-decoration: underline;
+    
+}
+.programmer{
+    padding: 10rem 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+.display-pic{
+    width: 30rem;
+    position: absolute;
+    right: 0px;
+    top: 210px;
+}
+
+/*****************************************middle-container*****************************************************/
+.middle-container{
+    width: 50%;
+    margin: 1.5rem auto;
+}
+
+.suit{
+    width: 20rem;
+}
+skill-row{
+    line-height: 2;
+    margin-bottom: 40rem;
+    text-align: left;
+    
+}
+.webdev-pic{
+    width: 13rem;
+    float: left;
+}
+.eating-pic{
+    width: 13rem;
+    float: right;
+}
+
+.skill-row p{
+    margin: 0;
+}
+
+
+
+ /*******************************************bottom-container***********************************************************/
+ .contact-me {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    padding: 16px;
+    background-color: #51C4D3;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 3rem 0;
+ }
+ 
+ .contact-me:hover {
+    background: #5AA897;
+    border: solid #5AA897 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+
+.social-media{
+    background-color: #d8e3e7;
+    padding: 3rem;
+}
+
+.social-media a{
+    text-decoration: none;
+    color: #51C4D3;
+    margin-left: 7rem;
+    font-size: 1.5rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.social-media a:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
